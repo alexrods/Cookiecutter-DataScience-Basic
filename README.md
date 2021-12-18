@@ -7,7 +7,6 @@
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html)
 
-
     pip install cookiecutter
 
 or
@@ -19,11 +18,11 @@ or
 In a folder where you want your project generated:
 
 
-    link
+    cookiecutter https://github.com/alexrods/Cookiecutter-DataScience-Basic.git
 
 ## Resulting directory structure
 
-
+```
 {{ cookiecutter.project_slug }}/
 ├── LICENSE
 ├── README.md       <- The top-level README for developers using this project.
