@@ -7,7 +7,7 @@
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html)
 
-
+    ```
     pip install cookiecutter
 
 or
