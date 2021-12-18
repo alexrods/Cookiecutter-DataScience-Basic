@@ -8,11 +8,12 @@
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html)
 
 
-      pip install cookiecutter
-    
+    pip install cookiecutter
+
+
 or
 
-      conda install -c conda-forge cookiecutter
+    conda install -c conda-forge cookiecutter
 
 ## Create a new project
 
@@ -36,4 +37,8 @@ In a folder where you want your project generated:
 └── notebooks       <- Jupyter notebooks. Naming convention is a number (for ordering),
                     the creator's initials, and a short `-` delimited description, e.g.
                     `1.0-jqp-initial-data-exploration`.
+
+## Credits
+
+This project was created following a class to [jvelezmagic](https://github.com/jvelezmagic) and his repository [cookiecutter conda data science](https://github.com/jvelezmagic/cookiecutter-conda-data-science).
 
