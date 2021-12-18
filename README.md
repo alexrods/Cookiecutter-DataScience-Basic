@@ -12,7 +12,7 @@
     
 or
 
-    conda install -c conda-forge cookiecutter
+      conda install -c conda-forge cookiecutter
 
 ## Create a new project
 
