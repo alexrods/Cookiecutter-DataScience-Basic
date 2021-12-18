@@ -8,7 +8,7 @@
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html)
 
 
-    pip install cookiecutter
+        pip install cookiecutter
 
 
 or
