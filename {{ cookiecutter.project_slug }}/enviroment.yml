@@ -1,0 +1,38 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+
+name: {{ cookiecutter.project_slug }}
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - jupyter
+  - jupyterlab
+  {% if cookiecutter.project_packages == "All" -%}
+  - keras
+  - lightgbm
+  {% endif -%}
+  - matplotlib
+  - nbdime
+  - numpy
+  - pandas
+  {% if cookiecutter.project_packages == "All" -%}
+  - pandas-flavor
+  - pandas-profiling
+  {% endif -%}
+  - pip
+  - plotly
+  - pyjanitor
+  {% if cookiecutter.project_packages == "All" -%}
+  - pylint
+  {% endif -%}
+  - pyprojroot
+  - python={{ cookiecutter.python_version }}
+  - seaborn
+  {% if cookiecutter.project_packages == "All" -%}
+  - statsmodels
+  - tensorflow
+  {% endif -%}
